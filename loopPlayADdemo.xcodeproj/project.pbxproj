@@ -13,9 +13,19 @@
 		1D81AEC01ECAE3A40089A76F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D81AEBE1ECAE3A40089A76F /* Main.storyboard */; };
 		1D81AEC21ECAE3A40089A76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D81AEC11ECAE3A40089A76F /* Assets.xcassets */; };
 		1D81AEC51ECAE3A40089A76F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D81AEC31ECAE3A40089A76F /* LaunchScreen.storyboard */; };
+		1D81AED51ECAE3F30089A76F /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AECF1ECAE3F30089A76F /* SDCollectionViewCell.m */; };
+		1D81AED61ECAE3F30089A76F /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AED11ECAE3F30089A76F /* SDCycleScrollView.m */; };
+		1D81AED71ECAE3F30089A76F /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AED31ECAE3F30089A76F /* UIView+SDExtension.m */; };
+		1D81AEE11ECAE4380089A76F /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AEDA1ECAE4380089A76F /* TAAbstractDotView.m */; };
+		1D81AEE21ECAE4380089A76F /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AEDC1ECAE4380089A76F /* TAAnimatedDotView.m */; };
+		1D81AEE31ECAE4380089A76F /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AEDE1ECAE4380089A76F /* TADotView.m */; };
+		1D81AEE41ECAE4380089A76F /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D81AEE01ECAE4380089A76F /* TAPageControl.m */; };
+		1D81AEE61ECAEE070089A76F /* textView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D81AEE51ECAEE070089A76F /* textView.xib */; };
+		FFFC51B99AD8AE62F132D13D /* libPods-loopPlayADdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B62B2035DCD36793E52AF389 /* libPods-loopPlayADdemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		064BAC9542D65C204B824F12 /* Pods-loopPlayADdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loopPlayADdemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-loopPlayADdemo/Pods-loopPlayADdemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1D81AEB21ECAE3A40089A76F /* loopPlayADdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loopPlayADdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D81AEB61ECAE3A40089A76F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D81AEB81ECAE3A40089A76F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,23 @@
 		1D81AEC11ECAE3A40089A76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D81AEC41ECAE3A40089A76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D81AEC61ECAE3A40089A76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D81AECE1ECAE3F30089A76F /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDCollectionViewCell.h; path = SDCycleScrollView/SDCollectionViewCell.h; sourceTree = "<group>"; };
+		1D81AECF1ECAE3F30089A76F /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDCollectionViewCell.m; path = SDCycleScrollView/SDCollectionViewCell.m; sourceTree = "<group>"; };
+		1D81AED01ECAE3F30089A76F /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDCycleScrollView.h; path = SDCycleScrollView/SDCycleScrollView.h; sourceTree = "<group>"; };
+		1D81AED11ECAE3F30089A76F /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDCycleScrollView.m; path = SDCycleScrollView/SDCycleScrollView.m; sourceTree = "<group>"; };
+		1D81AED21ECAE3F30089A76F /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SDExtension.h"; path = "SDCycleScrollView/UIView+SDExtension.h"; sourceTree = "<group>"; };
+		1D81AED31ECAE3F30089A76F /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDExtension.m"; path = "SDCycleScrollView/UIView+SDExtension.m"; sourceTree = "<group>"; };
+		1D81AED91ECAE4380089A76F /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAAbstractDotView.h; path = SDCycleScrollView/PageControl/TAAbstractDotView.h; sourceTree = "<group>"; };
+		1D81AEDA1ECAE4380089A76F /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAAbstractDotView.m; path = SDCycleScrollView/PageControl/TAAbstractDotView.m; sourceTree = "<group>"; };
+		1D81AEDB1ECAE4380089A76F /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAAnimatedDotView.h; path = SDCycleScrollView/PageControl/TAAnimatedDotView.h; sourceTree = "<group>"; };
+		1D81AEDC1ECAE4380089A76F /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAAnimatedDotView.m; path = SDCycleScrollView/PageControl/TAAnimatedDotView.m; sourceTree = "<group>"; };
+		1D81AEDD1ECAE4380089A76F /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TADotView.h; path = SDCycleScrollView/PageControl/TADotView.h; sourceTree = "<group>"; };
+		1D81AEDE1ECAE4380089A76F /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TADotView.m; path = SDCycleScrollView/PageControl/TADotView.m; sourceTree = "<group>"; };
+		1D81AEDF1ECAE4380089A76F /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAPageControl.h; path = SDCycleScrollView/PageControl/TAPageControl.h; sourceTree = "<group>"; };
+		1D81AEE01ECAE4380089A76F /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAPageControl.m; path = SDCycleScrollView/PageControl/TAPageControl.m; sourceTree = "<group>"; };
+		1D81AEE51ECAEE070089A76F /* textView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = textView.xib; sourceTree = "<group>"; };
+		8E54C10926CBA3DA7C9C657D /* Pods-loopPlayADdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loopPlayADdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-loopPlayADdemo/Pods-loopPlayADdemo.release.xcconfig"; sourceTree = "<group>"; };
+		B62B2035DCD36793E52AF389 /* libPods-loopPlayADdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-loopPlayADdemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFFC51B99AD8AE62F132D13D /* libPods-loopPlayADdemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +72,8 @@
 			children = (
 				1D81AEB41ECAE3A40089A76F /* loopPlayADdemo */,
 				1D81AEB31ECAE3A40089A76F /* Products */,
+				41D0C75256DE691D27E865F9 /* Pods */,
+				916EA5D9843299560BE6CF9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +88,7 @@
 		1D81AEB41ECAE3A40089A76F /* loopPlayADdemo */ = {
 			isa = PBXGroup;
 			children = (
+				1D81AECC1ECAE3E30089A76F /* lib */,
 				1D81AEB81ECAE3A40089A76F /* AppDelegate.h */,
 				1D81AEB91ECAE3A40089A76F /* AppDelegate.m */,
 				1D81AEBB1ECAE3A40089A76F /* ViewController.h */,
@@ -67,6 +98,7 @@
 				1D81AEC31ECAE3A40089A76F /* LaunchScreen.storyboard */,
 				1D81AEC61ECAE3A40089A76F /* Info.plist */,
 				1D81AEB51ECAE3A40089A76F /* Supporting Files */,
+				1D81AEE51ECAEE070089A76F /* textView.xib */,
 			);
 			path = loopPlayADdemo;
 			sourceTree = "<group>";
@@ -79,6 +111,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1D81AECC1ECAE3E30089A76F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1D81AED81ECAE4240089A76F /* PageControl */,
+				1D81AECE1ECAE3F30089A76F /* SDCollectionViewCell.h */,
+				1D81AECF1ECAE3F30089A76F /* SDCollectionViewCell.m */,
+				1D81AED01ECAE3F30089A76F /* SDCycleScrollView.h */,
+				1D81AED11ECAE3F30089A76F /* SDCycleScrollView.m */,
+				1D81AED21ECAE3F30089A76F /* UIView+SDExtension.h */,
+				1D81AED31ECAE3F30089A76F /* UIView+SDExtension.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		1D81AED81ECAE4240089A76F /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				1D81AED91ECAE4380089A76F /* TAAbstractDotView.h */,
+				1D81AEDA1ECAE4380089A76F /* TAAbstractDotView.m */,
+				1D81AEDB1ECAE4380089A76F /* TAAnimatedDotView.h */,
+				1D81AEDC1ECAE4380089A76F /* TAAnimatedDotView.m */,
+				1D81AEDD1ECAE4380089A76F /* TADotView.h */,
+				1D81AEDE1ECAE4380089A76F /* TADotView.m */,
+				1D81AEDF1ECAE4380089A76F /* TAPageControl.h */,
+				1D81AEE01ECAE4380089A76F /* TAPageControl.m */,
+			);
+			name = PageControl;
+			sourceTree = "<group>";
+		};
+		41D0C75256DE691D27E865F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				064BAC9542D65C204B824F12 /* Pods-loopPlayADdemo.debug.xcconfig */,
+				8E54C10926CBA3DA7C9C657D /* Pods-loopPlayADdemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		916EA5D9843299560BE6CF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B62B2035DCD36793E52AF389 /* libPods-loopPlayADdemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D81AEC91ECAE3A40089A76F /* Build configuration list for PBXNativeTarget "loopPlayADdemo" */;
 			buildPhases = (
+				5F2200587487C632A786C71D /* [CP] Check Pods Manifest.lock */,
 				1D81AEAE1ECAE3A40089A76F /* Sources */,
 				1D81AEAF1ECAE3A40089A76F /* Frameworks */,
 				1D81AEB01ECAE3A40089A76F /* Resources */,
+				8CFAE7D6F30128A9E105629B /* [CP] Embed Pods Frameworks */,
+				157068B6637EB46730FD0CE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,7 +191,6 @@
 				TargetAttributes = {
 					1D81AEB11ECAE3A40089A76F = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = JENXPCF8U3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D81AEC51ECAE3A40089A76F /* LaunchScreen.storyboard in Resources */,
+				1D81AEE61ECAEE070089A76F /* textView.xib in Resources */,
 				1D81AEC21ECAE3A40089A76F /* Assets.xcassets in Resources */,
 				1D81AEC01ECAE3A40089A76F /* Main.storyboard in Resources */,
 			);
@@ -146,14 +227,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		157068B6637EB46730FD0CE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-loopPlayADdemo/Pods-loopPlayADdemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2200587487C632A786C71D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFAE7D6F30128A9E105629B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-loopPlayADdemo/Pods-loopPlayADdemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D81AEAE1ECAE3A40089A76F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D81AEE21ECAE4380089A76F /* TAAnimatedDotView.m in Sources */,
+				1D81AEE31ECAE4380089A76F /* TADotView.m in Sources */,
 				1D81AEBD1ECAE3A40089A76F /* ViewController.m in Sources */,
+				1D81AED71ECAE3F30089A76F /* UIView+SDExtension.m in Sources */,
 				1D81AEBA1ECAE3A40089A76F /* AppDelegate.m in Sources */,
+				1D81AEE11ECAE4380089A76F /* TAAbstractDotView.m in Sources */,
 				1D81AEB71ECAE3A40089A76F /* main.m in Sources */,
+				1D81AEE41ECAE4380089A76F /* TAPageControl.m in Sources */,
+				1D81AED51ECAE3F30089A76F /* SDCollectionViewCell.m in Sources */,
+				1D81AED61ECAE3F30089A76F /* SDCycleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +407,10 @@
 		};
 		1D81AECA1ECAE3A40089A76F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064BAC9542D65C204B824F12 /* Pods-loopPlayADdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JENXPCF8U3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = loopPlayADdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sidetlw.loopPlayADdemo;
@@ -283,9 +420,10 @@
 		};
 		1D81AECB1ECAE3A40089A76F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E54C10926CBA3DA7C9C657D /* Pods-loopPlayADdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = JENXPCF8U3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = loopPlayADdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sidetlw.loopPlayADdemo;
@@ -312,6 +450,7 @@
 				1D81AECB1ECAE3A40089A76F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
